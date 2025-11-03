@@ -4,7 +4,7 @@ services:
     build: .
     container_name: spring-app
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:mysql://172.17.0.1:3307/externaldb_wsl
+      - SPRING_DATASOURCE_URL=jdbc:mysql://172.17.0.1:3308/externaldb_wsl
       - SPRING_DATASOURCE_USERNAME=root
       - SPRING_DATASOURCE_PASSWORD=
       - SPRING_DATASOURCE_DRIVER_CLASS_NAME=com.mysql.cj.jdbc.Driver
